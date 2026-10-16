@@ -106,7 +106,7 @@ jobs:
     - name: Intentional Failure (Debug Demo)
       run: |
         echo "Simulating failure for debugging ... "
-        exit 1
+    #    exit 1
 
     - name: Failure Handler
       if: failure ()
