@@ -93,7 +93,7 @@ jobs:
 
     - name: Push Docker Image (Simulated)
       run: |
-        echo "Logging into Docker registry ..
+        echo "Logging into Docker registry ..""
         echo "docker push myapp: latest"
         echo "Image pushed. "
     #-------------------------------------------------
