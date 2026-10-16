@@ -74,8 +74,8 @@ jobs:
     - name: Upload Artifacts
       uses: actions/upload-artifact@v4
       with:
-      name: build-artifacts-demo
-      path:
+        name: build-artifacts-demo
+        path:
     # Uploading entire folder just for demo, not real.
     #-------------------------------------------------------
     # STEP 8 - DOCKER BUILD (SIMULATED)
