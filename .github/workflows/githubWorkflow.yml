@@ -42,7 +42,7 @@ jobs:
 
     - name: Build Project (Simulated)
       run: |
-        echo "Building project for all languages.
+        echo "Building project for all languages."
         echo "Java - mvn clean package"
         echo "Node - npm run build"
         echo "Python - Python setup.py build"
