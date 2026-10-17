@@ -63,9 +63,9 @@ jobs:
 
     - name: Package Artifacts (Simulated)
       run: |
-        echo "Packaging build artifacts ... "
-        echo "Simulating .jar, .zip, builld folders"
-        echo "Artifacts ready for upload."
+        echo "Packaging build artifacts ... " > demo.txt
+        echo "Simulating .jar, .zip, builld folders" > demo.txt
+        echo "Artifacts ready for upload." > demo.txt
 
     #----------------------------------------------------
     # STEP 7 - UPLOAD ARTIFACTS (SIMULATED)
